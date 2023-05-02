@@ -1,7 +1,17 @@
-# Auto-GPT-Plugin-Template
-A starting point for developing your own external plug-in for Auto-GPT
+# Auto-GPT-iCalendar
+### It's about 🕒
 
-# **If you want your plugin to live within the codebase, use the example in the [plugins repo](https://github.com/Significant-Gravitas/Auto-GPT-Plugins) instead**
+## Why a calendar?
+When dealing the scheduling of multiple compelx tasks, effective humans offload said tasks onto a calendar, freeing up their working memory and allowing them to better focus on the task at hand.
+
+## Why iCalendar?
+Contrary to what the name might make you think, iCal, or .ics files, are not just for Apple devices. iCal is an industry standard calendar format allowing for the creation of synchronizzed calendars between users accepted by all modern calendar a
+
+## Roadmap
+
+[] Read and write from a .ics file
+[] Develop a system that allows Auto-GPT to wait for a calendar notification or a user prompt(such as an email), instead of the do_nothing command
+[] Ability to share calendars with the user, able to get updates on events that the user sets
 
 ### Plugin Installation Steps
 
